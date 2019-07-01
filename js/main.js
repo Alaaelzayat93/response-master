@@ -71,17 +71,13 @@ $('#plog-carousel').owlCarousel({
     }
   }
 });
-//wow 
-new WOW().init();
+
 // Search Toggle
-  $('#search-input-box').hide();
-  $('#search').on('click', function() {
-    $('#search-input-box').slideToggle();
-    $('#search-input').focus();
-  });
-  $('#close-search').on('click', function() {
-    $('#search-input-box').slideUp(500);
-  });
+  
+  $("#search").click(function(){
+  $("#search-input-box").slideToggle();
+});
+
   
 
 
